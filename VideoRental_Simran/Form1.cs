@@ -214,7 +214,7 @@ namespace VideoRental_Simran
         {
             if (RentID>0) {
 
-                int MovieCost = obj.getCost("select * form Movie where id="+Convert.ToInt32(MovieID.Text.ToString())+"");
+                int MovieCost = obj.getCost("select * from Movie where id="+Convert.ToInt32(MovieID.Text.ToString())+"");
 
 
                 DateTime new_date = DateTime.Now;

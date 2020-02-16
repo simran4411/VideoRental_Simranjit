@@ -14,7 +14,7 @@ namespace VideoRental_Simran.Data
         SqlConnection sqlCon;
 
         //String ConnectionString for Making the Connection between the Class and Database
-        String conStr = "Data Source=DESKTOP-HKD1BEO\\SQLEXPRESS;Initial Catalog=SimranDatabase;Integrated Security=True";
+        String conStr = "Data Source=SIMRAN;Initial Catalog=SimranDatabase;Integrated Security=True";
         //Cmd Instance Object to Create the Relation between  the Commad to execute the sql Command 
         SqlCommand sqlcmd;
         // DReader is instance to read the data from the database and pass to the Class
