@@ -329,6 +329,11 @@ namespace VideoRental_Simran
             choice = 0;
         }
 
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button9_Click(object sender, EventArgs e)
         {
             if (!ClientID.Text.ToString().Equals("") && !MovieID.Text.ToString().Equals("")) {
